@@ -1,6 +1,6 @@
 # File Render Time
 
-A simple and optimized JavaScript and TypeScript library to measure file upload render time (in milliseconds). This package allows you to measure the time it takes for a file to be read and processed using the FileReader API.
+A simple and optimized JavaScript and TypeScript library to measure file upload render time (in milliseconds).
 
 ## Features
 
@@ -21,11 +21,18 @@ npm install file-render-time
 ## Example
 
 ```
-import { measureRenderTime } from 'file-render-time';
+import { measureFileRenderTime } from 'file-render-time';
 ```
 
 ```
-measureRenderTime('path/to/your/file')
+measureFileRenderTime('path/to/your/file')
+  .then(time => console.log(`File render time: ${time} ms`))
+  .catch(error => console.error(error));
+
+```
+
+```
+measureFileRenderTime(file)
   .then(time => console.log(`File render time: ${time} ms`))
   .catch(error => console.error(error));
 

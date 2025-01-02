@@ -1,1 +1,1 @@
-export declare function measureFileRenderTime(file: File): Promise<number>;
+export declare function measureFileRenderTime(input: File | string): Promise<number>;

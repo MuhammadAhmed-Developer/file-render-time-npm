@@ -1,6 +1,6 @@
 {
   "name": "file-render-time",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A library to measure file upload render time in JavaScript and TypeScript",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
