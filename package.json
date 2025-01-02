@@ -1,0 +1,22 @@
+{
+  "name": "file-render-time",
+  "version": "1.0.6",
+  "description": "A library to measure file upload render time in JavaScript and TypeScript",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": ["file render time", "measure file render time", "file performance"],
+  "author": "Muhammad Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.29.1",
+    "tslib": "^2.8.1"
+  }
+}

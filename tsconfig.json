@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // Output modern JavaScript
+    "module": "ESNext",                     // ES modules format
+    "moduleResolution": "node",             // Resolves modules from node_modules
+    "strict": true,                         // Enforce strict type checking
+    "esModuleInterop": true,                // Make commonjs modules work with ES imports
+    "declaration": true,                    // Generates declaration files for TypeScript users
+    "outDir": "./dist",                     // Output compiled files in the dist folder
+    "skipLibCheck": true                    // Skip type checking on libraries for faster compilation
+  },
+  "include": ["src/**/*"],                  // Include all files in the src folder
+  "exclude": ["node_modules"]               // Exclude node_modules folder
+}
