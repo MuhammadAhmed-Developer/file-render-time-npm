@@ -25,13 +25,6 @@ import { measureFileRenderTime } from 'file-render-time';
 ```
 
 ```
-measureFileRenderTime('path/to/your/file')
-  .then(time => console.log(`File render time: ${time} ms`))
-  .catch(error => console.error(error));
-
-```
-
-```
 measureFileRenderTime(file)
   .then(time => console.log(`File render time: ${time} ms`))
   .catch(error => console.error(error));
