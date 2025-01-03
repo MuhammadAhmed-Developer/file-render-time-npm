@@ -1,6 +1,6 @@
 {
   "name": "file-render-time",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A library to measure file upload render time in JavaScript and TypeScript",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -9,6 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadAhmed-Developer/file-render-time-npm"
+  },
+  "homepage": "https://github.com/MuhammadAhmed-Developer/file-render-time-npm#readme",
   "keywords": ["file render time", "measure file render time", "file performance"],
   "author": "Muhammad Ahmed",
   "license": "ISC",
